@@ -1,0 +1,49 @@
+/*Tab bar borders - before and after actual Tab*/
+.tabbrowser-tab::after, .tabbrowser-tab::before {
+   border-left: none !important;
+}
+/*Tab bar font size*/
+.tabbrowser-tab {
+	font-size:9.5pt !important;
+}
+/*New Tab - active Tab background color*/
+.tab-content[selected="true"] {
+    background-color: #262626 !important;
+}
+/*Tab bar - rounded border for all Tab*/
+.tab-background, .tab-content {
+  border-radius: 13px 13px 13px 13px !important;
+  border-image: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  background-color: #141414 !important; /*inactive Tab color*/
+}
+/*colored line above active Tab*/
+.tab-line {
+  display: none !important;
+}
+/*Navigation bar color*/
+#nav-bar { 
+   background-color: #262626 !important;
+}
+/*Address bar (Search bar) rounded border, bcg. color, text color, "removed border"*/
+#urlbar-background {
+    border-radius: 13px !important;
+    background-color: #141414 !important;
+    color: #e3f3ff !important;
+    border-color: transparent !important;
+}
+/*Address bar text size, centered text*/
+#urlbar {
+	font-size:11.3pt !important;
+	text-align: center !important;
+}
+/*Address bar's dropdown box with rounded border, border color is same as before -> box-shadow*/
+#urlbar[focused="true"],
+#urlbar[focused="true"]:not([hide-focus]),
+ .searchbar-textbox[focused="true"] {
+ 	border-radius: 13px !important;
+   	box-shadow: 0 0 1.1px 1.1px var(--toolbar-field-focus-border-color) inset,
+               0 0 1.1px 1.1px var(--toolbar-field-focus-border-color);
+}
