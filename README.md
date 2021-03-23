@@ -12,6 +12,8 @@
   * Background color 
 * **Address bar:**
   * Rounded border, no border color
-  * Dropdow box border color same as before
-  * Dropdow box background color
-  * Centered text, font size 
+  * Dropdown box border color same as before
+  * Dropdown box background color
+  * Centered text, font size
+ 
+***Note:*** css file could have design mistakes after browser update
