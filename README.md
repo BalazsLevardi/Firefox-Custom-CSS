@@ -13,5 +13,5 @@
 * **Address bar:**
   * Rounded border, no border color
   * Dropdow box border color same as before
-  * Dropdow bx background color
+  * Dropdow box background color
   * Centered text, font size 
