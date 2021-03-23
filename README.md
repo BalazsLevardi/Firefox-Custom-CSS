@@ -16,4 +16,4 @@
   * Dropdown box background color
   * Centered text, font size
  
-***Note:*** css file could have design mistakes after browser update
+***Note:*** css file could make design mistakes after browser update
