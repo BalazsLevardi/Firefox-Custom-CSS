@@ -23,6 +23,10 @@
 .tab-line {
   display: none !important;
 }
+/*window title bar - upper bar color*/
+#main-window{
+	background: #0d0d0d !important;
+}
 /*Navigation bar color*/
 #nav-bar { 
    background-color: #262626 !important;
