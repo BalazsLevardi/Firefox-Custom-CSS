@@ -39,11 +39,14 @@
 	font-size:11.3pt !important;
 	text-align: center !important;
 }
-/*Address bar's dropdown box with rounded border, border color is same as before -> box-shadow*/
+/*Address bar dropdown box - border color is same as before, dropdown box with rounded*/
 #urlbar[focused="true"],
 #urlbar[focused="true"]:not([hide-focus]),
  .searchbar-textbox[focused="true"] {
  	border-radius: 13px !important;
+ 	box-shadow: 0 0 1.1px 1.1px #1c93fc inset,
+               0 0 1.1px 1.1px #1c93fc;
+    /*           
    	box-shadow: 0 0 1.1px 1.1px var(--toolbar-field-focus-border-color) inset,
-               0 0 1.1px 1.1px var(--toolbar-field-focus-border-color);
+               0 0 1.1px 1.1px var(--toolbar-field-focus-border-color);*/
 }
